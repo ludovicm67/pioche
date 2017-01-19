@@ -1,0 +1,5 @@
+languageCode = "fr"
+defaultContentLanguage = "fr"
+title = "Pioche!"
+baseurl = "http://example.org/"
+theme = "pioche"
