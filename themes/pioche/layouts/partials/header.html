@@ -4,20 +4,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 	<base href="{{ .Site.BaseURL }}">
-	<title>{{ .Site.Title }}</title>
+	<title>{{ .Title }}</title>
 	<link rel="canonical" href="{{ .Permalink }}">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="alternate" href="{{ .RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">
 </head>
 <body>
-	<header>
+	<header class="header-{{ if .IsHome }}home{{ end }}page">
+	{{- if .IsHome }}
+		<h1>{{ .Site.Params.TitleHomepage }}</h1>
+	{{- else -}}
 		<div class="container">
 			<img src="img/header-methodologie.png" alt="" class="header-img">
 			<h1><span>Présentation</span> de la <span>rubrique</span></h1>
 			<div class="header-right">
 				<a href="" class="strange-boxed">La frise</a>
-				<a href="" class="strange-boxed">Méthodologie</a>
+				<a href="methodologie/" class="strange-boxed">Méthodologie</a>
 			</div>
 		</div>
+	{{ end -}}
 	</header>
-	<div class="page">
+	<div class="{{ if .IsHome }}home{{ end }}page">

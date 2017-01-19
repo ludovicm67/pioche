@@ -1,12 +1,12 @@
 name = "Pioche"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+licenselink = "https://github.com/ludovicm67/pioche/blob/master/LICENSE"
 description = ""
-homepage = "http://siteforthistheme.com/"
+homepage = "https://ludovicm67.github.io/pioche/"
 tags = ["", ""]
 features = ["", ""]
 min_version = 0.18
 
 [author]
-  name = ""
-  homepage = ""
+  name = "ludovicm67"
+  homepage = "https://www.ludovic-muller.fr/"

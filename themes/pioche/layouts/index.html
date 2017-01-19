@@ -3,6 +3,12 @@
 <div class="container">
 	<div class="section">
 		<h1>Hello world !</h1>
+		<p>Les 10 derniers posts :</p>
+		<ul>
+		{{- range first 10 .Data.Pages }}
+			<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+		{{ end -}}
+		</ul>
 	</div>
 </div>
 

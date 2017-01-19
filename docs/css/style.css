@@ -65,7 +65,22 @@ header {
     border-bottom: 2px solid #000;
 }
 
-header .container {
+.header-homepage {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header-homepage h1:before {
+    display: inline-block;
+    content: '  -   ';
+}
+
+.header-homepage h1:after {
+    display: inline-block;
+    content: '   -  ';
+}
+
+.header-page .container {
     display: flex;
     justify-content: space-between;
     background-color: #de1436;
@@ -90,7 +105,7 @@ header .container {
     text-decoration: none;
 }
 
-header h1 {
+.header-page h1 {
     flex: 1;
     height: 154px;
     position: relative;
@@ -100,7 +115,7 @@ header h1 {
     font-weight: normal;
 }
 
-header h1:before {
+.header-page h1:before {
     position: absolute;
     top: 0;
     left: 40px;
@@ -111,7 +126,7 @@ header h1:before {
     transform: rotate(20deg);
 }
 
-header h1 span {
+.header-page h1 span {
     display: block;
     font-weight: bold;
 }
@@ -124,7 +139,7 @@ header h1 span {
         zoom: .75;
     }
 
-    header h1 {
+    .header-page h1 {
         flex: 1;
         height: auto;
         position: relative;
@@ -134,15 +149,15 @@ header h1 span {
         text-align: center;
     }
 
-    header h1 span {
+    .header-page h1 span {
         display: inline-block;
     }
 
-    header h1:before {
+    .header-page h1:before {
         display: none;
     }
 
-    header .container {
+    .header-page .container {
         display: block;
     }
 }
