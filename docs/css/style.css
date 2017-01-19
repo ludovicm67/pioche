@@ -37,13 +37,14 @@ body {
 }
 
 .strange-boxed {
+    font-size: 18px;
     display: inline-block;
     position: relative;
-    padding: 15px 8px 8px 15px;
+    padding: 24px 16px 16px 24px;
     text-transform: uppercase;
     background-color: #fff;
-    margin-bottom: 8px;
-    margin-right: 8px;
+    margin-bottom: 16px;
+    margin-right: 16px;
 }
 
 .strange-boxed:after {
@@ -56,6 +57,7 @@ body {
     height: 100%;
     border: 2px solid #000;
 }
+
 
 /* Header */
 header {
@@ -72,7 +74,7 @@ header .container {
 
 .header-img {
     padding-left: 20px;
-    max-height: 130px;
+    max-height: 154px;
 }
 
 .header-right {
@@ -90,9 +92,9 @@ header .container {
 
 header h1 {
     flex: 1;
-    height: 130px;
+    height: 154px;
     position: relative;
-    padding: 20px;
+    padding: 34px;
     padding-left: 80px;
     font-size: 26px;
     font-weight: normal;
@@ -104,7 +106,7 @@ header h1:before {
     left: 40px;
     content: '';
     display: block;
-    height: 130px;
+    height: 154px;
     border-left: 2px solid #000;
     transform: rotate(20deg);
 }
@@ -113,6 +115,38 @@ header h1 span {
     display: block;
     font-weight: bold;
 }
+
+@media screen and (max-width: 960px) {
+    .header-img {
+        max-width: 100%;
+        margin: auto;
+        display: block;
+        zoom: .75;
+    }
+
+    header h1 {
+        flex: 1;
+        height: auto;
+        position: relative;
+        padding: 25px;
+        font-size: 26px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    header h1 span {
+        display: inline-block;
+    }
+
+    header h1:before {
+        display: none;
+    }
+
+    header .container {
+        display: block;
+    }
+}
+
 
 /* Footer */
 footer {

@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://ludovicm67.github.io/pioche/about/</loc>
     <lastmod>2017-01-19T14:48:38+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://ludovicm67.github.io/pioche/</loc>
     <priority>0</priority>
   </url>
   
