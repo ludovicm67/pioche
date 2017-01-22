@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 	<base href="{{ .Site.BaseURL }}">
-	<title>{{ .Title }}</title>
+	<title>{{replace .Title "-" " " | title }}</title>
 	<link rel="canonical" href="{{ .Permalink }}">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="alternate" href="{{ .RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">
+	<link rel="alternate" href="{{ .RSSLink }}" type="application/rss+xml" title="{{replace .Title "-" " " | title }}">
 </head>
 <body>
 	<header class="header-{{ if .IsHome }}home{{ end }}page">
@@ -18,7 +18,7 @@
 			<img src="img/header-methodologie.png" alt="" class="header-img">
 			<h1><span>Présentation</span> de la <span>rubrique</span></h1>
 			<div class="header-right">
-				<a href="" class="strange-boxed">La frise</a>
+				<a href="la-frise/" class="strange-boxed">La frise</a>
 				<a href="methodologie/" class="strange-boxed">Méthodologie</a>
 			</div>
 		</div>

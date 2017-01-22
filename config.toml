@@ -1,9 +1,0 @@
-languageCode           = "fr"
-defaultContentLanguage = "fr"
-title                  = "Pioche!"
-baseurl                = "https://ludovicm67.github.io/pioche/"
-theme                  = "pioche"
-publishDir             = "docs"
-
-[params]
-  titleHomepage        = "Head website title logo"

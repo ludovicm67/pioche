@@ -2,6 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ludovicm67.github.io/pioche/qu-en-dites-vous/les-profs/</loc>
+    <lastmod>2017-01-22T14:59:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ludovicm67.github.io/pioche/qu-en-dites-vous/raisonnement/</loc>
+    <lastmod>2017-01-22T14:59:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ludovicm67.github.io/pioche/qu-en-dites-vous/culture/</loc>
+    <lastmod>2017-01-22T14:59:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ludovicm67.github.io/pioche/la-frise/tendance-de-la-recherche/</loc>
+    <lastmod>2017-01-22T11:09:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ludovicm67.github.io/pioche/la-frise/decouverte/</loc>
+    <lastmod>2017-01-22T11:08:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ludovicm67.github.io/pioche/la-frise/progres/</loc>
+    <lastmod>2017-01-22T11:08:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ludovicm67.github.io/pioche/la-frise/philosophe/</loc>
+    <lastmod>2017-01-22T11:02:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ludovicm67.github.io/pioche/la-frise/courant-philosophique/</loc>
+    <lastmod>2017-01-22T11:01:42+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ludovicm67.github.io/pioche/methodologie/fiche12/</loc>
     <lastmod>2017-01-19T18:57:25+01:00</lastmod>
   </url>
@@ -62,8 +102,9 @@
   </url>
   
   <url>
-    <loc>https://ludovicm67.github.io/pioche/about/</loc>
-    <lastmod>2017-01-19T14:48:38+01:00</lastmod>
+    <loc>https://ludovicm67.github.io/pioche/la-frise/</loc>
+    <lastmod>2017-01-22T11:09:11+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -74,7 +115,13 @@
   
   <url>
     <loc>https://ludovicm67.github.io/pioche/</loc>
-    <lastmod>2017-01-19T18:57:25+01:00</lastmod>
+    <lastmod>2017-01-22T14:59:27+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ludovicm67.github.io/pioche/qu-en-dites-vous/</loc>
+    <lastmod>2017-01-22T14:59:27+01:00</lastmod>
     <priority>0</priority>
   </url>
   

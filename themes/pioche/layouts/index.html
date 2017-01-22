@@ -2,12 +2,13 @@
 
 <div class="container">
 	<div class="section">
-		<h1>Hello world !</h1>
-		<p>Les 10 derniers posts :</p>
+		<h2>Les différentes rubriques :</h2>
 		<ul>
-		{{- range first 10 .Data.Pages }}
-			<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-		{{ end -}}
+			{{ range $section, $pages := .Site.Sections }}
+				{{ if ne $section "" }}
+					<li><a href="/{{ $section }}">{{replace $section "-" " " | title }}</a></li>
+				{{ end }}
+			{{ end }}
 		</ul>
 	</div>
 </div>

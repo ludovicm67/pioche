@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>La-frise on Pioche!</title>
+    <link>https://ludovicm67.github.io/pioche/la-frise/index.xml</link>
+    <description>Recent content in La-frise on Pioche!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 22 Jan 2017 11:09:11 +0100</lastBuildDate>
+    <atom:link href="https://ludovicm67.github.io/pioche/la-frise/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>tendance de la recherche</title>
+      <link>https://ludovicm67.github.io/pioche/la-frise/tendance-de-la-recherche/</link>
+      <pubDate>Sun, 22 Jan 2017 11:09:11 +0100</pubDate>
+      
+      <guid>https://ludovicm67.github.io/pioche/la-frise/tendance-de-la-recherche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>decouverte</title>
+      <link>https://ludovicm67.github.io/pioche/la-frise/decouverte/</link>
+      <pubDate>Sun, 22 Jan 2017 11:08:52 +0100</pubDate>
+      
+      <guid>https://ludovicm67.github.io/pioche/la-frise/decouverte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>progres</title>
+      <link>https://ludovicm67.github.io/pioche/la-frise/progres/</link>
+      <pubDate>Sun, 22 Jan 2017 11:08:44 +0100</pubDate>
+      
+      <guid>https://ludovicm67.github.io/pioche/la-frise/progres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophe</title>
+      <link>https://ludovicm67.github.io/pioche/la-frise/philosophe/</link>
+      <pubDate>Sun, 22 Jan 2017 11:02:09 +0100</pubDate>
+      
+      <guid>https://ludovicm67.github.io/pioche/la-frise/philosophe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>courant philosophique</title>
+      <link>https://ludovicm67.github.io/pioche/la-frise/courant-philosophique/</link>
+      <pubDate>Sun, 22 Jan 2017 11:01:42 +0100</pubDate>
+      
+      <guid>https://ludovicm67.github.io/pioche/la-frise/courant-philosophique/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

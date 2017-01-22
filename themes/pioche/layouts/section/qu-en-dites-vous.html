@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+	<h2>Les derniers articles...</h2>
+	{{- range first 10 .Data.Pages -}}
+	<div class="section">
+		<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+		<p>{{ .Summary }}</p>
+		{{ if .Truncated }}<p><a href="{{ .Permalink }}">[ suite ]</a></p>{{ end }}
+	</div>
+	{{- end -}}
+</div>
+
+{{ partial "footer.html" . }}

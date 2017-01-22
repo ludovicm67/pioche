@@ -1,0 +1,9 @@
+baseURL: "http://localhost:1313"
+defaultContentLanguage: "fr"
+enableEmoji: true
+languageCode: "fr"
+params:
+  titleHomepage: "Head website title logo"
+pluralizelisttitles: false
+title: "Pioche!"
+theme: "pioche"

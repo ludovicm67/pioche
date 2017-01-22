@@ -1,0 +1,10 @@
+baseURL: "https://ludovicm67.github.io/pioche/"
+defaultContentLanguage: "fr"
+enableEmoji: true
+languageCode: "fr"
+params:
+  titleHomepage: "Head website title logo"
+pluralizelisttitles: false
+publishDir: "docs"
+title: "Pioche!"
+theme: "pioche"
