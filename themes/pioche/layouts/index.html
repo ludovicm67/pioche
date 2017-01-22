@@ -6,7 +6,7 @@
 		<ul>
 			{{ range $section, $pages := .Site.Sections }}
 				{{ if ne $section "" }}
-					<li><a href="/{{ $section }}">{{replace $section "-" " " | title }}</a></li>
+					<li><a href="{{ $section }}/">{{replace $section "-" " " | title }}</a></li>
 				{{ end }}
 			{{ end }}
 		</ul>
